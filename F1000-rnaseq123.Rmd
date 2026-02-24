@@ -23,9 +23,9 @@ This script will allow us to recreate the analysis from:  Law CW, Alhamdoosh M, 
 
 Before running this script, you will want to install the workflow package RNAseq123, using:
 
-if(!require("RNAseq123")) BiocManager::install("RNAseq123")
+if(!require(RNAseq123)) BiocManager::install("RNAseq123")
 
-This script will create some interactive plots for you to explore that can be accessed via links on the .html output file. I consider creating such figures beyond the goals of this class, but I think it is good to know what can be done in case you have a use for such figures in the future. 
+Upon 'knitting', this this script will reproduce the analysis in the F1000 paper and create some interactive plots for you to explore that can be accessed via links on the .html output file. We will review the code and results in class together.
 
 # Set-up
 
